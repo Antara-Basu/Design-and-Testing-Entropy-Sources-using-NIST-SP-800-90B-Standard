@@ -1,5 +1,5 @@
 # Design-and-Testing-Entropy-Sources-using-NIST-SP-800-90B-Standard
-**Introduction**
+***Introduction***
 
 To secure any communication between 2 parties, both the sender and receiver must ensure the channel is secure. To achieve this, the transmitted signals are encrypted  using an encryption algorithm and at the reciever's end, they're decrypted to retrieve the original message. Both encryption and decryption algorithms rely on a key, which is shared between the communicating parties.
 However, if an attacker gets hold of the key, they can easily decode the message. In order to eradicate this type of risk, random keys are used which are represented as bitstrings of 0s and 1s- to prevent prediction.This is pricely when Random Number Generators(RNGs) comes into picture. RNGs provides the much needed randomness for generating secure keys that strengthen the encryption process against potential breaches.
