@@ -2,4 +2,4 @@ The noise source samples are said to be independent and identically distributed 
 This section will include statistical tests to look for evidence that the samples are not IID and if no evidence is found against the IID assumption, we will use the IID assumption is true.
 While both binary and non-binary data can be applied onto the tests, certain tests continued to be affected by the number of distinct sample values, denoted k (the size of the set A) that influenced the distribution of the test statistics and thus the type I error. For these tests, one of the following transformations is considered for the input data when the input is binary (i.e., k = 2). 
 
-1)Conversion 1: partitions the sequences into eight-bit non-overlapping blocks, and counts the number of ones in each block. Zeroes are appended when the last block has less than eight bits.
+**1)Conversion 1:** partitions the sequences into eight-bit non-overlapping blocks, and counts the number of ones in each block. Zeroes are appended when the last block has less than eight bits.
