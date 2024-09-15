@@ -6,7 +6,7 @@ However, if an attacker gets hold of the key, they can easily decode the message
  1) **True RNG:** A True RNG uses a nondeterministic source to make randomness.
 For this the computer must use some external physical variable that is unpredictable, such as at the quantum level, subatomic particles have completely random behaviour, making them ideal variables of an unpredictable system.
  2) **Pseudo RNG:** Software-generated numbers only are pseudorandom. They are not truly random because the computer uses an algorithm based on a distribution and are not secure because they rely on deterministic  predictable algorithms.
-DRDO is looking for Quantum RNG. As quantum gives it a true property.They need a setup which can generate the Quantum Random Bitstring.
+**DRDO is looking for Quantum RNG**. As quantum gives it a true property.They need a setup which can generate the Quantum Random Bitstring.
 In DYSL-QT - They have a project of developing Quantum Random Number Generator. However, they must be sure that bitstrings are entirely random after they are generated.
 To determine whether those bitsrings are truly random or not, there is a Randomness Test. DYSL-QT has executed over 150 Randomness Tests thus far.
 Once the Bitstrings were found to be truly random by passing the Randomness test, my work started. I had to quantify the bitstring's randomness. Entropy is a useful metric to quantify it.
