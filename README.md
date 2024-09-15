@@ -41,7 +41,18 @@ to generate randomness.
 2) **Non-physical noise sources:** They use system data (such as output of Application Programming Interface (API) functions, Random Access Memory (RAM) data or
 system time) or human input (e.g., mouse movements) to generate randomness.
 
-But there is one more factor to be considered before estimating entropy of noise source.
+But there is one more factor to be considered before estimating entropy of sequence.
 The estimators that are to be applied to a sequence depend on whether the data has been determined to be IID or non-IID. For IID data, the min-entropy estimation is determined in some ways, whereas for non-IID data, the procedures are different.
+If every sample from a noise source has the same probability distribution as every other sample and every sample is mutually independent, then the samples are independent and identically distributed (IID). The entropy estimation procedure is made much simpler by the IID assumption. 
+In cases where the IID assumption is not met, meaning that the samples are not independently distributed or identically distributed, or neither, estimating entropy becomes more challenging and necessitates the use of alternative techniques.
+
+I included 11 codes for statistical tests in a different section to look for evidence that the samples are not IID.
+And after that, I employed three techniques to estimate the minimum entropy for them.
+
+**1)The Most Common Value Estimate**
+
+**2)The Markov Estimate**
+
+**3)The Compression Estimate**
 
 
