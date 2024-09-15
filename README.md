@@ -21,9 +21,10 @@ Assume for the moment that I have written a function to determine the entropy of
 So how do we calculate the entropy ?
 
 By entropy estimation methods:
-1)Maximum Entropy:
+
+**1)Maximum Entropy:**
 Simply means when the entropy is maximum.
-2)Minimum Entropy:
+**2)Minimum Entropy:**
 Measures the effectiveness of the strategy of guessing the most likely output of the entropy source.
 The noise source is the root of security for the entropy source and for the RBG as a whole. This is
 the component that contains the non-deterministic, entropy-providing process that is ultimately
