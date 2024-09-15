@@ -33,10 +33,10 @@ The noise source is the root of security for the entropy source and for the RBG 
 This is the component that contains the non-deterministic, entropy-providing process that is ultimately
 responsible for the uncertainty associated with the bitstrings output by the entropy source.
 
- **1)Physical noise sources **: They use dedicated hardware
+ 1)**Physical noise sources **: They use dedicated hardware
 to generate randomness.
 
-** 2)Non-physical noise sources **: They use system data (such as output of Application Programming Interface (API) functions, Random Access Memory (RAM) data or
+2)**Non-physical noise sources **: They use system data (such as output of Application Programming Interface (API) functions, Random Access Memory (RAM) data or
 system time) or human input (e.g., mouse movements) to generate randomness.
 
 But there is one more factor to be considered before estimating entropy of bitstring or noise source.
