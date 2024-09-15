@@ -24,16 +24,21 @@ By entropy estimation methods:
 
 **1)Maximum Entropy:**
 Simply means when the entropy is maximum.
+
 **2)Minimum Entropy:**
 Measures the effectiveness of the strategy of guessing the most likely output of the entropy source.
 The noise source is the root of security for the entropy source and for the RBG as a whole. This is
 the component that contains the non-deterministic, entropy-providing process that is ultimately
 responsible for the uncertainty associated with the bitstrings output by the entropy source.
+
 **Noise sources can be divided into two categories:**
+
  **1)Physical noise sources **: They use dedicated hardware
-to generate randomness;
+to generate randomness.
+
 ** 2)Non-physical noise sources **: They use system data (such as output of Application Programming Interface (API) functions, Random Access Memory (RAM) data or
 system time) or human input (e.g., mouse movements) to generate randomness.
+
 But there is one more factor to be considered before estimating entropy of bitstring or noise source.
 The estimators that are to be applied to a sequence depend on whether the data has been determined to be IID or non-IID. For IID data, the min-entropy estimation is determined in som ways, whereas for non-IID data, the procedures are different.
 
