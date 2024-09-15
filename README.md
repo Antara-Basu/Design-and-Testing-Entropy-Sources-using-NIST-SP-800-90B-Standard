@@ -27,11 +27,11 @@ Simply means when the entropy is maximum.
 
 **2)Minimum Entropy:**
 Measures the effectiveness of the strategy of guessing the most likely output of the entropy source.
-The noise source is the root of security for the entropy source and for the RBG as a whole. This is
-the component that contains the non-deterministic, entropy-providing process that is ultimately
-responsible for the uncertainty associated with the bitstrings output by the entropy source.
+The noise source is the root of security for the entropy source and for the RBG as a whole.
 
 **Noise sources can be divided into two categories:**
+This is the component that contains the non-deterministic, entropy-providing process that is ultimately
+responsible for the uncertainty associated with the bitstrings output by the entropy source.
 
  **1)Physical noise sources **: They use dedicated hardware
 to generate randomness.
