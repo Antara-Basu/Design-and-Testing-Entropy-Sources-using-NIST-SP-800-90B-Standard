@@ -47,6 +47,7 @@ If every sample from a noise source has the same probability distribution as eve
 In cases where the IID assumption is not met, meaning that the samples are not independently distributed or identically distributed, or neither, estimating entropy becomes more challenging and necessitates the use of alternative techniques.
 
 I provided 11 codes for statistical tests in a separate section to verify whether the samples are independent and identically distributed (IID). Following that, I used three methods to estimate the minimum entropy:
+
 **1)The Most Common Value Estimate** (For both IID and Non-IID data)
 
 **2)The Markov Estimate** (For Non-IID data)
