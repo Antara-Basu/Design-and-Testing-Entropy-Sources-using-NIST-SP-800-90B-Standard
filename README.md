@@ -29,17 +29,16 @@ Simply means when the entropy is maximum.
 **2)Minimum Entropy:**
 Measures the effectiveness of the strategy of guessing the most likely output of the entropy source.
 The noise source is the root of security for the entropy source and for the RBG as a whole.
-In my work, i estimated minimum-entropy for all the sequences, as in security applications such as cryptographic systems, its crucial to understand the worst case unpredictability. An attacker will target the most predictable events or sequences to exploit the system. Therefore, minimum-entropy provides an estimate of randomness ensuring that even the most likely events do not offer an easy target is the sequence has high minimum-entropy.
+In my work, i estimated minimum-entropy for all the sequences, as in security applications such as cryptographic systems, its crucial to understand the worst case unpredictability. An attacker will target the most predictable events or sequences to exploit the system. Therefore, minimum-entropy provides an estimate of randomness ensuring that even the most likely events do not offer an easy target if the sequence has high minimum-entropy.
 
-Now lets talk about noise source : This is the component that contains the non-deterministic, entropy-providing process that is ultimately
+Now lets talk about noise source : This is the component that contains the non-deterministic, entropy-providing process, that is ultimately
 responsible for the uncertainty associated with the bitstrings output by the entropy source.
 
 **Noise sources can be divided into two categories:**
 
-1) **Physical noise sources:** They use dedicated hardware
-to generate randomness.
-
-2) **Non-physical noise sources:** They use system data (such as output of Application Programming Interface (API) functions, Random Access Memory (RAM) data or
+1) **Physical noise sources:** They use dedicated hardwareto generate randomness.
+2) 
+3) **Non-physical noise sources:** They use system data (such as output of Application Programming Interface (API) functions, Random Access Memory (RAM) data or
 system time) or human input (e.g., mouse movements) to generate randomness.
 
 But there is one more factor to be considered before estimating entropy of sequence.
@@ -47,13 +46,11 @@ The estimators that are to be applied to a sequence depend on whether the data h
 If every sample from a noise source has the same probability distribution as every other sample and every sample is mutually independent, then the samples are independent and identically distributed (IID). The entropy estimation procedure is made much simpler by the IID assumption. 
 In cases where the IID assumption is not met, meaning that the samples are not independently distributed or identically distributed, or neither, estimating entropy becomes more challenging and necessitates the use of alternative techniques.
 
-I included 11 codes for statistical tests in a different section to look for evidence that the samples are not IID.
-And after that, I employed three techniques to estimate the minimum entropy for them.
+I provided 11 codes for statistical tests in a separate section to verify whether the samples are independent and identically distributed (IID). Following that, I used three methods to estimate the minimum entropy:
+**1)The Most Common Value Estimate** (For both IID and Non-IID data)
 
-**1)The Most Common Value Estimate**
+**2)The Markov Estimate** (For Non-IID data)
 
-**2)The Markov Estimate**
-
-**3)The Compression Estimate**
+**3)The Compression Estimate** (For Non-IID data)
 
 
